@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(12, 99, 91);
+}
+
+.campo{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    width: 35vw;
+    height: 57vh;
+}
+
+.titulo{
+    padding: 5px;
+    text-align: center;
+}
+
+.titulo2{
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.calcular {
+    padding: 5px;
+}
+
+.calcular p{
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+
+.calcular input{
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+}
+
+button{
+    padding: 5px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#resultado{
+    text-align: center;
+    
+}
+
+.paragrafo-resultado {
+    background:rgb(5, 255, 5) ;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.bad{
+    font-weight: bold;
+    background:rgb(202, 57, 57) ;
+    padding: 10px 20px;
+}
+
